@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>時は夢のように&lt;br/&gt;雨の跡が残し</title>
+        <subtitle>&lt;br/&gt;这里是時雨，喜欢摸鱼，只是一个普通的小程序员，喜欢什么都知道一点，也希望分享点什么&lt;br/&gt; ここは時雨、サボルが少しすきす、ただフツウのプログラマーです、何も少し知ってるが好きです、何かをキョウユウしたいが思っていいます&lt;br/&gt;</subtitle>
+        <icon>http://shiguretokiame.github.io/images/favicon.ico</icon>
+        <link>http://shigureTokiame.github.io</link>
+        <author>
+          <name>時雨</name>
+        </author>
+        <description>只是个普通的喜欢摸鱼的咸鱼&lt;br/&gt;ただ普通の塩魚です&lt;br/&gt;サボルが少し好きです</description>
+        <language>zh-CN</language>
+        <pubDate>Mon, 04 Dec 2023 13:25:52 +0800</pubDate>
+        <lastBuildDate>Mon, 04 Dec 2023 13:25:52 +0800</lastBuildDate>
+        <category term="時雨の博客" />
+        <category term="時雨的博客" />
+        <category term="时雨" />
+        <category term="Shigure" />
+        <category term="Blog" />
+        <category term="Shigure blog" />
+        <category term="Shigure&#39;s blog" />
+        <category term="shigureTokiame" />
+        <category term="shigure-Tokiame" />
+        <category term="Yuki" />
+        <category term="Fairy" />
+        <category term="Maid" />
+        <category term="YukiFairyMaid" />
+        <category term="Sametsune" />
+        <category term="theme shoka" />
+        <category term="shoka theme" />
+        <category term="Hexo" />
+        <category term="Shoka" />
+        <category term="Yume Shoka" />
+        <category term="二次元" />
+        <category term="舰队Collection" />
+        <category term="Kancollection" />
+        <category term="Kancolle" />
+        <category term="Kantai" />
+        <category term="Kan" />
+        <item>
+            <guid isPermalink="true">http://shiguretokiame.github.io/blog-build/step1/</guid>
+            <title>使用Hexo+Shoka搭建个人博客（其一）</title>
+            <link>http://shiguretokiame.github.io/blog-build/step1/</link>
+            <category term="博客搭建" scheme="http://shiguretokiame.github.io/categories/blog-build/" />
+            <category term="Blog" scheme="http://shiguretokiame.github.io/tags/Blog/" />
+            <pubDate>Mon, 04 Dec 2023 13:25:52 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;这个博客是依靠&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==&#34;&gt; Hexo&lt;/span&gt; 框架进行搭建的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这个博客的主题是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUv&#34;&gt; Shoka&lt;/span&gt;，作者是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWU=&#34;&gt;霜月琉璃&lt;/span&gt;，一位兼具计算机与医学的大佬。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;左下角的看板娘是由&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0dhcmRlbkhhbXN0ZXI=&#34;&gt; GardenHamster&lt;/span&gt; 魔改的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3N0ZXZlbmpvZXpoYW5nL2xpdmUyZC13aWRnZXQ=&#34;&gt; Live2d-widget&lt;/span&gt;，叫做&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL0dhcmRlbkhhbXN0ZXIvbGl2ZTJkLXdlYg==&#34;&gt; Live2d-web&lt;/span&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;建议在搭建博客之前看一下这些文档&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;警告，该博客搭建虽然面向小白，但仍一定的计算机基础&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;开发环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开发环境&#34;&gt;#&lt;/a&gt; 开发环境&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;使用的编译器是&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20v&#34;&gt; Visual Studio Code（VS Code）&lt;/span&gt;，VS Code 是不自带中文的，中文插件能够在 VS Code 里面找到，插件名叫做： &lt;code&gt;Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;最新版本的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ub2RlanMub3JnL2Vu&#34;&gt; Nodejs&lt;/span&gt;，安装的时候一定要勾选 &lt;span class=&#34;label danger&#34;&gt;Add to PATH&lt;/span&gt; 选项（默认是勾选的）&lt;/li&gt;
+&lt;li&gt;最新版本的&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS8=&#34;&gt; Git&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备工作&#34;&gt;#&lt;/a&gt; 准备工作&lt;/h2&gt;
+&lt;h3 id=&#34;安装hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装hexo&#34;&gt;#&lt;/a&gt; 安装 Hexo&lt;/h3&gt;
+&lt;p&gt;首先需要打开 cmd 或者 git bash，然后输入下面两串指令（分开输入）&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 下载安装 hexo 脚手架&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-g&lt;/span&gt; hexo-cli&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 在 cmd 或 git bash 中选中的目录下生成相关文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 最好自己创建一个文件夹，并将 cmd 定位到该文件夹后再使用这串指令&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;执行后目录如下图所示&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;example_1.jpg&#34; alt=&#34;example_1&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://shiguretokiame.github.io/index/</guid>
+            <title>博客创建记录</title>
+            <link>http://shiguretokiame.github.io/index/</link>
+            <category term="博客搭建" scheme="http://shiguretokiame.github.io/categories/blog-build/" />
+            <category term="Blog" scheme="http://shiguretokiame.github.io/tags/Blog/" />
+            <pubDate>Sat, 02 Dec 2023 09:27:01 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;经历了长达 1 个多月的摸鱼（工作 + 学业压力 + 懒，实在是抽不出设计博客的时间。&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;好吧，我承认我自己有 50% 的原因&lt;/span&gt;:），不过好在最终还是将这个博客做了出来，创建博客的经历可以说是大起大落落落也不为过，期间发生了超级多的意外。&lt;/p&gt;
+&lt;p&gt;不过我做博客还是以分享为主，学习什么的。。。还是比较少的吧（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;毕竟用到的东西门槛也不高&lt;/span&gt;:）我也是希望将我知道的一些好东西分享出去（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;这一篇不是&lt;/span&gt;:），顺便讲讲我的做博客的契机和经历（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;吹水&lt;/span&gt;:）。&lt;/p&gt;
+&lt;p&gt;这是我的博客中的第一篇文章，当然也不会只有这一篇。&lt;/p&gt;
+&lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;设计博客的缘由&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设计博客的缘由&#34;&gt;#&lt;/a&gt; 设计博客的缘由&lt;/h2&gt;
+&lt;p&gt;前几个月在网上冲浪的时候发现了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==&#34;&gt; Hexo&lt;/span&gt; 这么个玩意儿，仔细百度了一会儿后才知道是用来&lt;strong&gt;快速搭建博客&lt;/strong&gt;的框架，甚至这个框架几乎没有什么门槛！顺带我们&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubmFzdWl5aWxlLmNu&#34;&gt;社长&lt;/span&gt;早就建了个博客的原因。&lt;/p&gt;
+&lt;p&gt;我催生出搭建个人博客的念头，第一次尝试就在 7 月份，经过了十数天的捣鼓，那时我的博客已经很完善了，可因为当时计算机宕机导致系统重装，我的博客资源也因为存在本地文件，很快就当场去世了，很快第一次尝试就结束了。&lt;/p&gt;
+&lt;p&gt;这使我自闭了一段时间，随后又在 11 月份初，我又一次出现了这个念头，因为之前的经验，让我很快的完成了搭建，并决定搞一些花里胡哨的东西进去。&lt;/p&gt;
+&lt;p&gt;虽然说着挺简单，但我也花了不少时间去学习这些东西（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;当然，这种时间都是去掉了工作和学校里大部分的时间后&lt;/span&gt;:）&lt;/p&gt;
+&lt;p&gt;往后的文章基本也都会是学习记录，踩坑记录或者分享类型的文章了，顺便我会写一些搭建这个个人博客的记录，给也想要搭建个人博客的萌新一些思路（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;当时因为购买域名也导致出了不少问题&lt;/span&gt;:）。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
