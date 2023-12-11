@@ -135,7 +135,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;在 &lt;code&gt;Comment&lt;/code&gt;  中，找到 &lt;code&gt;权限&lt;/code&gt; ，修改 &lt;code&gt;Class访问权限&lt;/code&gt; 和 &lt;code&gt;列权限&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;/images/blog-build/class_rule.jpg&#34; alt=&#34;&#34; /&gt;![](&lt;img data-src=&#34;/images/blog-build/column_rule.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/images/blog-build/class_rule.jpg&#34; alt=&#34;&#34; /&gt;&lt;img data-src=&#34;/images/blog-build/column_rule.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </content>
