@@ -170,8 +170,8 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img data-src=&#34;/images/blog-build/email_checker.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Avatar URL&lt;/code&gt;  就是头像的链接，比如。&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zZWN1cmUuZ3JhdmF0YXIuY29tL2F2YXRhci9hN2UyYzZkMDE3OTI1YjliM2YxMjkxMDFmMzdhNmIxOGUzZjAyMjg1NzI4Mjk5ZjgxYmVmMjg5NjAxNDdkMzc3&#34;&gt;https://secure.gravatar.com/avatar/a7e2c6d017925b9b3f129101f37a6b18e3f02285728299f81bef28960147d377&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Avatar URL&lt;/code&gt;  就是头像的链接，比如。&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zZWN1cmUuZ3JhdmF0YXIuY29tL2F2YXRhci9hN2UyYzZkMDE3OTI1YjliM2YxMjkxMDFmMzdhNmIxOGUzZjAyMjg1NzI4Mjk5ZjgxYmVmMjg5NjAxNDdkMzc3&#34;&gt;https://secure.gravatar.com/avatar/a7e2c6d017925b9b3f129101f37a6b18e3f02285728299f81bef28960147d377&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;因为&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9ncmF2YXRhci5jb20v&#34;&gt; Gravatar&lt;/span&gt; 进行了更新，所以导致这边的 URL 也同样进行了更新 &lt;s&gt;（我说怎么链接看着不对劲）&lt;/s&gt; 。&lt;/li&gt;
 &lt;li&gt;之后在评论那里将连接放入，便可以显示头像了，前提是等待几分钟 &lt;s&gt;（某些倒霉蛋甚至需要几天）&lt;/s&gt; 。&lt;/li&gt;
 &lt;/ul&gt;
