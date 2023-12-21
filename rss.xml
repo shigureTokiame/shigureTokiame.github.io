@@ -10,8 +10,8 @@
         </author>
         <description>只是个普通的喜欢摸鱼的咸鱼&lt;br/&gt;ただ普通の塩魚です&lt;br/&gt;サボルが少し好きです</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 10 Dec 2023 11:57:43 +0800</pubDate>
-        <lastBuildDate>Sun, 10 Dec 2023 11:57:43 +0800</lastBuildDate>
+        <pubDate>Wed, 20 Dec 2023 16:40:01 +0800</pubDate>
+        <lastBuildDate>Wed, 20 Dec 2023 16:40:01 +0800</lastBuildDate>
         <category term="時雨の博客" />
         <category term="時雨的博客" />
         <category term="时雨" />
@@ -38,6 +38,64 @@
         <category term="Kantai" />
         <category term="Kan" />
         <item>
+            <guid isPermalink="true">http://shiguretokiame.github.io/black-technology/black-technology-1/</guid>
+            <title>分享 —— Locale Emulator</title>
+            <link>http://shiguretokiame.github.io/black-technology/black-technology-1/</link>
+            <category term="实用插件" scheme="http://shiguretokiame.github.io/categories/%E5%AE%9E%E7%94%A8%E6%8F%92%E4%BB%B6/" />
+            <category term="插件" scheme="http://shiguretokiame.github.io/tags/%E6%8F%92%E4%BB%B6/" />
+            <category term="计算机" scheme="http://shiguretokiame.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" />
+            <pubDate>Wed, 20 Dec 2023 16:40:01 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;之前玩游戏的时候 &lt;s&gt;（黄油）&lt;/s&gt;，出现过 &lt;code&gt;正常运行&lt;/code&gt; 和 &lt;code&gt;以管理员身份运行&lt;/code&gt; 都无法正常打开游戏的情况，甚至当时将系统地区调成了对应地区也无法打开，于是当即就去网上找了好长时间。&lt;br /&gt;
+然后在网上冲浪找解决办法的时候，找到了这么个插件 ——&lt;span class=&#34;rainbow&#34;&gt;Locale Emulator&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5CLocale_Emulator.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#说明&#34;&gt;#&lt;/a&gt; 说明&lt;/h2&gt;
+&lt;p&gt;其实这个问题主要是国内电脑的普遍问题，以日本游戏举例 &lt;s&gt;（典例）&lt;/s&gt;，部分日本游戏（或者文件）可能会出现乱码、运行不了、闪退、显示不正常，文字错误等等一系列问题。而这种插件可以解决这些问题，统称为转区工具。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;乱码原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#乱码原理&#34;&gt;#&lt;/a&gt; 乱码原理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 应用程序的语言应与系统区域所定义语言的脚本或类型不相同，从而导致在应用程序的用户界面中显示乱码。&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;简单说明就是 &lt;s&gt;（人话）&lt;/s&gt; ，电脑的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 跟软件或游戏的不匹配，导致游戏出现各种问题。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;转区原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#转区原理&#34;&gt;#&lt;/a&gt; 转区原理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;在基于 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 的平台中模拟运行非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 应用程序所需的语言环境，使用通常称作  &lt;code&gt;系统区域&lt;/code&gt;  的系统范围变量（或适用于非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 应用程序的语言）将应用程序的非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 文本数据在内部转换为 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt;。&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;简单说明就是 &lt;s&gt;（人话）&lt;/s&gt; ，转区工具会将电脑的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 转换成软件或游戏所对应的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt;，从而顺利解决这一系列问题。&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;下载地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载地址&#34;&gt;#&lt;/a&gt; 下载地址&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;Locale Emulator&lt;/span&gt; 是 Github 上，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3h1cGVmZWk=&#34;&gt;xupefei &lt;/span&gt;大佬的作品。&lt;br /&gt;
+原地址是：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94dXBlZmVpLmdpdGh1Yi5pby9Mb2NhbGUtRW11bGF0b3Iv&#34;&gt;https://xupefei.github.io/Locale-Emulator/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;你说打不开 Github？ &lt;s&gt;拜托，加速器救一下呐，你说没有加速器？&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;打不开 Github 可以在我分享的百度网盘进行下载。&lt;br /&gt;
+百度网盘链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMWdBeVdWYlNyMmtwdE4wVkt5Q296eUE/cHdkPTMyMjI=&#34;&gt;https://pan.baidu.com/s/1gAyWVbSr2kptN0VKyCozyA?pwd=3222&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;食用说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#食用说明&#34;&gt;#&lt;/a&gt; 食用说明&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下载完之后打开压缩包 &lt;s&gt;（我拒绝回答一切跟文件夹或压缩包相关的问题）&lt;/s&gt;。&lt;/li&gt;
+&lt;li&gt;在随便哪个地方创建一个文件夹，然后将压缩包内所有的文件放入。&lt;/li&gt;
+&lt;li&gt;然后点击 &lt;code&gt;LEInstaller.exe&lt;/code&gt; ，开始安装。&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5Clocale_emulator_install.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;选择安装方式，三种方法都可以，计算机小白建议直接选择第一个。&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5Cinstall.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;安装完成后跳出下面这个框就算是安装成功了。&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5Cfinish.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;右键文件后出现 &lt;code&gt;Locale Emulator&lt;/code&gt;  后即可正常食用。&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5Cuse.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;进阶功能可以打开 LEGUI.exe 进行修改和查看&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5Clegui.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">http://shiguretokiame.github.io/blog-build/step3/</guid>
             <title>Step3：修改配置文件</title>
             <link>http://shiguretokiame.github.io/blog-build/step3/</link>
@@ -45,7 +103,7 @@
             <category term="Blog" scheme="http://shiguretokiame.github.io/tags/Blog/" />
             <category term="教程" scheme="http://shiguretokiame.github.io/tags/%E6%95%99%E7%A8%8B/" />
             <category term="Hexo" scheme="http://shiguretokiame.github.io/tags/Hexo/" />
-            <pubDate>Sun, 10 Dec 2023 11:57:43 +0800</pubDate>
+            <pubDate>Tue, 12 Dec 2023 11:57:43 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/blog-build/step1/index.html&#34;&gt;搭建环境&lt;/a&gt; - &lt;a href=&#34;/blog-build/step2/index.html&#34;&gt;安装插件&lt;/a&gt; - &lt;a href=&#34;/blog-build/step3/index.html&#34;&gt;修改配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -188,7 +246,7 @@
             <category term="Blog" scheme="http://shiguretokiame.github.io/tags/Blog/" />
             <category term="教程" scheme="http://shiguretokiame.github.io/tags/%E6%95%99%E7%A8%8B/" />
             <category term="Hexo" scheme="http://shiguretokiame.github.io/tags/Hexo/" />
-            <pubDate>Sun, 10 Dec 2023 08:17:37 +0800</pubDate>
+            <pubDate>Mon, 11 Dec 2023 08:17:37 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/blog-build/step1/index.html&#34;&gt;搭建环境&lt;/a&gt; - &lt;a href=&#34;/blog-build/step2/index.html&#34;&gt;安装插件&lt;/a&gt; - &lt;a href=&#34;/blog-build/step3/index.html&#34;&gt;修改配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -261,7 +319,7 @@
             <category term="Blog" scheme="http://shiguretokiame.github.io/tags/Blog/" />
             <category term="教程" scheme="http://shiguretokiame.github.io/tags/%E6%95%99%E7%A8%8B/" />
             <category term="Hexo" scheme="http://shiguretokiame.github.io/tags/Hexo/" />
-            <pubDate>Mon, 04 Dec 2023 13:25:52 +0800</pubDate>
+            <pubDate>Sun, 10 Dec 2023 13:25:52 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;&lt;a href=&#34;/blog-build/step1/index.html&#34;&gt;搭建环境&lt;/a&gt; - &lt;a href=&#34;/blog-build/step2/index.html&#34;&gt;安装插件&lt;/a&gt; - &lt;a href=&#34;/blog-build/step3/index.html&#34;&gt;修改配置&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
