@@ -46,7 +46,7 @@
             <category term="计算机" scheme="http://shiguretokiame.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" />
             <pubDate>Wed, 20 Dec 2023 16:40:01 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
-&lt;p&gt;之前玩游戏的时候 &lt;s&gt;（黄油）&lt;/s&gt;，出现过 &lt;code&gt;正常运行&lt;/code&gt; 和 &lt;code&gt;以管理员身份运行&lt;/code&gt; 都无法正常打开游戏的情况，甚至当时将系统地区调成了对应地区也无法打开，于是当即就去网上找了好长时间。&lt;br /&gt;
+&lt;p&gt;之前玩游戏的时候（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;黄油&lt;/span&gt;:），出现过 &lt;code&gt;正常运行&lt;/code&gt; 和 &lt;code&gt;以管理员身份运行&lt;/code&gt; 都无法正常打开游戏的情况，甚至当时将系统地区调成了对应地区也无法打开，于是当即就去网上找了好长时间。&lt;br /&gt;
 然后在网上冲浪找解决办法的时候，找到了这么个插件 ——&lt;span class=&#34;rainbow&#34;&gt;Locale Emulator&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5CLocale_Emulator.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;说明&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#说明&#34;&gt;#&lt;/a&gt; 说明&lt;/h2&gt;
@@ -55,7 +55,7 @@
 &lt;h3 id=&#34;乱码原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#乱码原理&#34;&gt;#&lt;/a&gt; 乱码原理&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 应用程序的语言应与系统区域所定义语言的脚本或类型不相同，从而导致在应用程序的用户界面中显示乱码。&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;简单说明就是 &lt;s&gt;（人话）&lt;/s&gt; ，电脑的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 跟软件或游戏的不匹配，导致游戏出现各种问题。&lt;/p&gt;
+&lt;p&gt;简单说明就是（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;人话&lt;/span&gt;:），电脑的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 跟软件或游戏的不匹配，导致游戏出现各种问题。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -64,7 +64,7 @@
 &lt;li&gt;
 &lt;p&gt;在基于 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 的平台中模拟运行非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 应用程序所需的语言环境，使用通常称作  &lt;code&gt;系统区域&lt;/code&gt;  的系统范围变量（或适用于非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 应用程序的语言）将应用程序的非 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 文本数据在内部转换为 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt;。&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;简单说明就是 &lt;s&gt;（人话）&lt;/s&gt; ，转区工具会将电脑的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 转换成软件或游戏所对应的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt;，从而顺利解决这一系列问题。&lt;/p&gt;
+&lt;p&gt;简单说明就是（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;人话&lt;/span&gt;:），转区工具会将电脑的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt; 转换成软件或游戏所对应的 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iYWlrZS5iYWlkdS5jb20vaXRlbS8lRTclQkIlOUYlRTQlQjglODAlRTclQTAlODEvMjk4NTc5OD9mcm9tdGl0bGU9VW5pY29kZSZhbXA7ZnJvbWlkPTc1MDUwMCZhbXA7ZnI9YWxhZGRpbg==&#34;&gt;Unicode&lt;/span&gt;，从而顺利解决这一系列问题。&lt;/p&gt;
 &lt;/div&gt;
 &lt;hr /&gt;
 &lt;/li&gt;
@@ -90,7 +90,7 @@
 &lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5Cuse.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;note primary&#34;&gt;
-&lt;p&gt;进阶功能可以打开 LEGUI.exe 进行修改和查看&lt;/p&gt;
+&lt;p&gt;进阶功能可以打开 LEGUI.exe 进行修改和查看。&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;img data-src=&#34;%5Cimages%5CLocale_Emulator%5Clegui.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
  ]]></description>
@@ -374,15 +374,15 @@
             <link>http://shiguretokiame.github.io/index/</link>
             <pubDate>Sat, 02 Dec 2023 09:27:01 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;经历了长达 1 个多月的摸鱼（工作 + 学业压力 + 懒，实在是抽不出设计博客的时间。&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;好吧，我承认我自己有 50% 的原因&lt;/span&gt;:），不过好在最终还是将这个博客做了出来，创建博客的经历可以说是大起大落落落也不为过，期间发生了超级多的意外。&lt;/p&gt;
-&lt;p&gt;不过我做博客还是以分享为主，学习什么的。。。还是比较少的吧（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;毕竟用到的东西门槛也不高&lt;/span&gt;:）我也是希望将我知道的一些好东西分享出去（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;这一篇不是&lt;/span&gt;:），顺便讲讲我的做博客的契机和经历（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;吹水&lt;/span&gt;:）。&lt;/p&gt;
+&lt;p&gt;不过我做博客还是以分享为主，学习什么的。。。应该还是比较少的吧（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;我比较菜&lt;/span&gt;:）我也是希望将我知道的一些好东西分享出去（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;这一篇不是&lt;/span&gt;:），顺便讲讲我的做博客的契机和经历（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;吹水&lt;/span&gt;:）。&lt;/p&gt;
 &lt;p&gt;这是我的博客中的第一篇文章，当然也不会只有这一篇。&lt;/p&gt;
 &lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&#34;设计博客的缘由&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设计博客的缘由&#34;&gt;#&lt;/a&gt; 设计博客的缘由&lt;/h2&gt;
-&lt;p&gt;前几个月在网上冲浪的时候发现了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==&#34;&gt; Hexo&lt;/span&gt; 这么个玩意儿，仔细百度了一会儿后才知道是用来&lt;strong&gt;快速搭建博客&lt;/strong&gt;的框架，甚至这个框架几乎没有什么门槛！顺带我们&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubmFzdWl5aWxlLmNu&#34;&gt;社长&lt;/span&gt;早就建了个博客的原因。&lt;/p&gt;
-&lt;p&gt;我催生出搭建个人博客的念头，第一次尝试就在 7 月份，经过了十数天的捣鼓，那时我的博客已经很完善了，可因为当时计算机宕机导致系统重装，我的博客资源也因为存在本地文件，很快就当场去世了，很快第一次尝试就结束了。&lt;/p&gt;
-&lt;p&gt;这使我自闭了一段时间，随后又在 11 月份初，我又一次出现了这个念头，因为之前的经验，让我很快的完成了搭建，并决定搞一些花里胡哨的东西进去。&lt;/p&gt;
-&lt;p&gt;虽然说着挺简单，但我也花了不少时间去学习这些东西（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;当然，这种时间都是去掉了工作和学校里大部分的时间后&lt;/span&gt;:）&lt;/p&gt;
-&lt;p&gt;往后的文章基本也都会是学习记录，踩坑记录或者分享类型的文章了，顺便我会写一些搭建这个个人博客的记录，给也想要搭建个人博客的萌新一些思路（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;当时因为购买域名也导致出了不少问题&lt;/span&gt;:）。&lt;/p&gt;
+&lt;p&gt;前几个月在网上冲浪的时候发现了&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==&#34;&gt; Hexo&lt;/span&gt; 这么个玩意儿，仔细百度了一会儿后才知道是用来&lt;strong&gt;快速搭建博客&lt;/strong&gt;的框架，而且几乎没有什么门槛！顺带我们&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubmFzdWl5aWxlLmNu&#34;&gt;社长&lt;/span&gt;早就建了个个人博客的原因。&lt;/p&gt;
+&lt;p&gt;我催生出做一个个人博客的念头，第一次尝试就在 7 月份，经过了数天的捣鼓，那时我的博客已经很完善了，可因为当时计算机宕机导致系统重装，我的博客资源也因为存在本地文件，很快就当场去世了，很快第一次尝试就结束了。&lt;/p&gt;
+&lt;p&gt;随后又在 11 月份初，我又一次出现了这个念头，因为之前的经验，让我很快的完成了搭建，并决定搞一些花里胡哨的东西进去。&lt;/p&gt;
+&lt;p&gt;虽然说着挺简单，但我也花了不少时间去学习（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;百度&lt;/span&gt;:）这些东西。&lt;/p&gt;
+&lt;p&gt;往后的文章基本也都会是一些奇奇怪怪的文章了，顺便我会写一些搭建这个个人博客的记录，给也想要搭建个人博客的萌新一些思路（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;当时因为购买域名也导致出了不少问题&lt;/span&gt;:）。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
