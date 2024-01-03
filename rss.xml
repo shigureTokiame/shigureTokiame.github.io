@@ -42,18 +42,18 @@
             <title>分享 —— uTools</title>
             <link>http://shiguretokiame.github.io/black-technology/black-technology-2/</link>
             <category term="实用插件" scheme="http://shiguretokiame.github.io/categories/black-technology/" />
-            <category term="插件" scheme="http://shiguretokiame.github.io/tags/%E6%8F%92%E4%BB%B6/" />
+            <category term="工具" scheme="http://shiguretokiame.github.io/tags/%E5%B7%A5%E5%85%B7/" />
             <category term="计算机" scheme="http://shiguretokiame.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" />
             <pubDate>Fri, 22 Dec 2023 09:41:56 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
-&lt;p&gt;作为一名&lt;span class=&#34;rainbow&#34;&gt;比较菜&lt;/span&gt;的程序员，时常会因为打开软件花费一些时间，可能会因为没有放快捷方式的习惯，经常会去找对应的文件夹来启动文件，这导致花费了我异常多的时间。然后在网上找资料的时候，看到了&lt;span class=&#34;rainbow&#34;&gt; uTools&lt;/span&gt; 的介绍，感觉还不错，于是就去用了，用了之后呢，只想说超级好用，现在已经离不开了。（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;uTools 太强辣！&lt;/span&gt;:）&lt;/p&gt;
+&lt;p&gt;作为一名&lt;span class=&#34;rainbow&#34;&gt;比较菜&lt;/span&gt;的程序员，时常会因为打开软件花费一些时间，可能会因为没有放快捷方式的习惯，经常会去找对应的文件夹来启动文件，这导致花费了我异常多的时间。然后在网上找资料的时候，看到了&lt;span class=&#34;rainbow&#34;&gt; uTools&lt;/span&gt; 的介绍，感觉还不错，于是就去用了，用了之后呢，只想说超级好用，现在已经离不开了。（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;uTools 太强辣！&lt;/span&gt;）&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2 id=&#34;功能介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能介绍&#34;&gt;#&lt;/a&gt; 功能介绍&lt;/h2&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudS50b29scy8=&#34;&gt;uTools&lt;/span&gt; 的功能，我感觉大概可以分成 &lt;code&gt;两个大类&lt;/code&gt; ，&lt;span class=&#34;rainbow&#34;&gt;快速启动软件功能&lt;/span&gt;和&lt;span class=&#34;rainbow&#34;&gt;即时好用的插件功能&lt;/span&gt;。&lt;/p&gt;
 &lt;h3 id=&#34;快速启动&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#快速启动&#34;&gt;#&lt;/a&gt; 快速启动&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;这个快速启动功能简直让我眼前一亮，输入关键词就可以快速打开电脑中的软件（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;跟搜索栏很像对吧？我也觉得很像，但是比搜索栏更好用&lt;/span&gt;:），我有了解过，MacOS 有这种快速启动的功能 &lt;s&gt;（但是我没有用过 Mac 系统）&lt;/s&gt; ，使用 &lt;code&gt;alt+空格&lt;/code&gt; 就会跳出一个搜索栏，输入关键词之后，软件也会在搜索栏出现，接着就可以直接打开了，听起来也挺快的（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;至少比去文件夹里面找快很多&lt;/span&gt;:）。&lt;/p&gt;
+&lt;p&gt;这个快速启动功能简直让我眼前一亮，输入关键词就可以快速打开电脑中的软件（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;跟搜索栏很像对吧？我也觉得很像，但是比搜索栏更好用&lt;/span&gt;），我有了解过，MacOS 有这种快速启动的功能 &lt;s&gt;（但是我没有用过 Mac 系统）&lt;/s&gt; ，使用 &lt;code&gt;alt+空格&lt;/code&gt; 就会跳出一个搜索栏，输入关键词之后，软件也会在搜索栏出现，接着就可以直接打开了，听起来也挺快的（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;至少比去文件夹里面找快很多&lt;/span&gt;）。&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;这个功能可能说的有点笼统，因为 Windows 系统上面也有搜索栏，但是我不太喜欢用，原因是搜索有延迟，而且很多软件不能直接靠关键词搜索到 &lt;s&gt;（这样真的很不爽）&lt;/s&gt; 。&lt;/p&gt;
 &lt;/div&gt;
@@ -61,7 +61,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;插件功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#插件功能&#34;&gt;#&lt;/a&gt; 插件功能&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;这个功能也是重中之重，可以在 &lt;code&gt;插件应用市场&lt;/code&gt; 里面下载超级多的插件（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;应有尽有！&lt;/span&gt;:），本身自带的插件也是非常好用。&lt;br /&gt;
+&lt;li&gt;这个功能也是重中之重，可以在 &lt;code&gt;插件应用市场&lt;/code&gt; 里面下载超级多的插件（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;应有尽有！&lt;/span&gt;），本身自带的插件也是非常好用。&lt;br /&gt;
  &lt;code&gt;取色、翻译、批量修改文件名、Markdown、识别图中文字&lt;/code&gt; 等等一系列好用的插件，全部都集成在了 uTools 中，方便管理且可以随时调用这些插件，完全不影响使用。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
@@ -114,8 +114,8 @@
             <guid isPermalink="true">http://shiguretokiame.github.io/black-technology/black-technology-1/</guid>
             <title>分享 —— Locale Emulator</title>
             <link>http://shiguretokiame.github.io/black-technology/black-technology-1/</link>
-            <category term="实用插件" scheme="http://shiguretokiame.github.io/categories/black-technology/" />
-            <category term="插件" scheme="http://shiguretokiame.github.io/tags/%E6%8F%92%E4%BB%B6/" />
+            <category term="实用工具" scheme="http://shiguretokiame.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/" />
+            <category term="工具" scheme="http://shiguretokiame.github.io/tags/%E5%B7%A5%E5%85%B7/" />
             <category term="计算机" scheme="http://shiguretokiame.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" />
             <pubDate>Wed, 20 Dec 2023 16:40:01 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
