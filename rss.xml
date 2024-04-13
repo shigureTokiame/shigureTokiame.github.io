@@ -10,8 +10,8 @@
         </author>
         <description>只是个普通的喜欢摸鱼的咸鱼&lt;br/&gt;ただ普通の塩魚です&lt;br/&gt;サボルが少し好きです</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 22 Dec 2023 09:41:56 +0800</pubDate>
-        <lastBuildDate>Fri, 22 Dec 2023 09:41:56 +0800</lastBuildDate>
+        <pubDate>Mon, 15 Jan 2024 15:18:08 +0800</pubDate>
+        <lastBuildDate>Mon, 15 Jan 2024 15:18:08 +0800</lastBuildDate>
         <category term="時雨の博客" />
         <category term="時雨的博客" />
         <category term="时雨" />
@@ -37,6 +37,92 @@
         <category term="Kancolle" />
         <category term="Kantai" />
         <category term="Kan" />
+        <item>
+            <guid isPermalink="true">http://shiguretokiame.github.io/black-technology/black-technology-3/</guid>
+            <title>分享 —— Internet Download Manager</title>
+            <link>http://shiguretokiame.github.io/black-technology/black-technology-3/</link>
+            <category term="实用工具" scheme="http://shiguretokiame.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/" />
+            <category term="工具" scheme="http://shiguretokiame.github.io/tags/%E5%B7%A5%E5%85%B7/" />
+            <category term="计算机" scheme="http://shiguretokiame.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" />
+            <pubDate>Mon, 15 Jan 2024 15:18:08 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;其实我很早就打算写关于这个 &lt;span class=&#34;rainbow&#34;&gt;Internet Download Manager&lt;/span&gt; 了，但是因为各种原因不打算写 &lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;因为正版的 IDM 需要花钱购买会员&lt;/span&gt; 。虽然话是这么说，但是我还是写了。(&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;有条件的还是支持一下正版吧&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;&lt;strong&gt;但是在开始之前，需要先了解功能，并做好前面的准备工作&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;功能介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能介绍&#34;&gt;#&lt;/a&gt; 功能介绍&lt;/h2&gt;
+&lt;p&gt;IDM 作为一个浏览器的下载器，其最大的作用就是&lt;span class=&#34;blue&#34;&gt;十分直观的增强下载速度&lt;/span&gt;，至少可以提升 3-5 倍的下载速度，如果网速允许，甚至可以更高；真正意义上的&lt;span class=&#34;rainbow&#34;&gt;下载界的天花板&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;当然，除了下载速度快，还自带一些别的功能，例如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;病毒扫描功能&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;保护用户被恶意软件或木马病毒骚扰，从而集成了 &lt;code&gt;自动查毒&lt;/code&gt; 的功能的 IDM，在其中选中 &lt;code&gt;杀毒软件&lt;/code&gt; 后，每当下载完成，杀毒软件就会自动进行扫描&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimage%5CIDM%5Ctoxic.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;科学下载环境&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;众所周知，外网下载，&lt;s&gt;懂的都懂&lt;/s&gt;，总之就是外网的东西在配置完端口跟代理之后，下载也能被提速&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;%5Cimage%5CIDM%5Cscience.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;自动嗅探资源&lt;/strong&gt;&lt;br /&gt;
+自动在视频、图片、文字资源附近，增加一个 &lt;code&gt;下载该 XXX&lt;/code&gt; &lt;br /&gt;
+&lt;img data-src=&#34;%5Cimage%5CIDM%5Cvideo.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;爬取网页下载&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;选择爬取的网页，并将所有能够下载的内容全部显示，适合用来批量下载图库、视频、文章等&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimage%5CIDM%5Ccrawl.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以及其他功能 &lt;s&gt;我也没有使用过全部功能，所以我也不知道&lt;/s&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#准备工作&#34;&gt;#&lt;/a&gt; 准备工作&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;能够下载插件的浏览器（谷歌，火狐，360，Edge 等）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IDM（&lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;这才是本体&lt;/span&gt;）&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;&lt;strong&gt;下载链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGFuem91Yi5jb20vaUNXeHoxdXdwcnZj&#34;&gt;https://www.lanzoub.com/iCWxz1uwprvc&lt;/span&gt;&lt;/strong&gt;  &lt;strong&gt;访问密码：sgr9&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;食用方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#食用方法&#34;&gt;#&lt;/a&gt; 食用方法&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先从三件套中解压 IDM 压缩包&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;%5Cimages%5CIDM%5Cuncompress.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;打开 &lt;code&gt;Bin&lt;/code&gt; ，右键 &lt;code&gt;!)绿化.bat&lt;/code&gt; ，选择管理员打开 &lt;span class=&#34;spoiler&#34; title=&#34;小火汁，你知道的太多了。(｀∀´)Ψ&#34;&gt;不用管理员打开会导致无法正常使用&lt;/span&gt;&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CIDM%5Cgreen.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后打开 &lt;code&gt;IDMan&lt;/code&gt; ，会显示如下界面&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CIDM%5CIDM.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;选择 &lt;code&gt;选项&lt;/code&gt; ，打开后，在 &lt;code&gt;常规设置&lt;/code&gt; 中勾选如下两个按钮，勾选之后点击 &lt;code&gt;确认&lt;/code&gt; &lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CIDM%5Crelevancy.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;随后打开 &lt;code&gt;浏览器&lt;/code&gt; （以下载链接的谷歌浏览器作为演示），打开 &lt;code&gt;扩展程序&lt;/code&gt; ，能够看到在绿化完之后， &lt;code&gt;扩展程序&lt;/code&gt; 自动添加了 &lt;code&gt;Internet Download Manager&lt;/code&gt; ，找到后勾选&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CIDM%5Cextended.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下载完之后，使用任意下载链接进行测试，如出现以下界面，则表明已经完成了所有的步骤，能够正常使用了&lt;br /&gt;
+&lt;img data-src=&#34;%5Cimages%5CIDM%5CDone.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;rainbow&#34;&gt;Enjoy&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;其余浏览器也会因为绿化后，于 &lt;code&gt;扩展程序&lt;/code&gt; 中同样会出现 &lt;code&gt;Internet Download Manager&lt;/code&gt; ，所以其他浏览器也可以支持使用 IDM 进行下载&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://shiguretokiame.github.io/black-technology/black-technology-2/</guid>
             <title>分享 —— uTools</title>
