@@ -1,0 +1,15 @@
+http://shiguretokiame.github.io/black-technology/black-technology-3/
+http://shiguretokiame.github.io/black-technology/black-technology-2/
+http://shiguretokiame.github.io/black-technology/black-technology-1/
+http://shiguretokiame.github.io/index/
+http://shiguretokiame.github.io/blog-build/step3/
+http://shiguretokiame.github.io/blog-build/step2/
+http://shiguretokiame.github.io/blog-build/step1/
+http://shiguretokiame.github.io/
+http://shiguretokiame.github.io/tags/Blog/
+http://shiguretokiame.github.io/tags/%E6%95%99%E7%A8%8B/
+http://shiguretokiame.github.io/tags/Hexo/
+http://shiguretokiame.github.io/tags/%E5%B7%A5%E5%85%B7/
+http://shiguretokiame.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/
+http://shiguretokiame.github.io/categories/blog-build/
+http://shiguretokiame.github.io/categories/black-technology/
